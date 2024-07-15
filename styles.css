@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Welcome Section Styles */
+  .bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, #3b82f6, #60a5fa);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Courses Section Styles */
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  /* Testimonials Section Styles */
+  .swiper-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .swiper-pagination {
+    position: relative;
+    bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    margin-top: 50px;
+  }
+  
+  /* Instructor Section Styles */
+  .instructor-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
